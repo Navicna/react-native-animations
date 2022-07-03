@@ -37,7 +37,7 @@ export default function InitialScreen() {
     },
     {
       title: 'Circular Progress',
-      onPress: () => console.warn(),
+      onPress: () => navigate('Donuts'),
     },
     {
       title: 'Carousel',

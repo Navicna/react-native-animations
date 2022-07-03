@@ -3,7 +3,6 @@ import React from 'react';
 import {Pressable} from 'react-native';
 import {StyledView} from 'react-native-dev-ui';
 
-import Icon from 'react-native-vector-icons/dist/MaterialCommunityIcons';
 import {IconChevronLeft} from '../ui/Icon';
 
 export const BackButton = ({style}: {style?: any}) => {
@@ -24,6 +23,7 @@ export const BackButton = ({style}: {style?: any}) => {
           position: 'absolute',
           top: 60,
           left: 16,
+          zIndex: 1,
         },
         style,
       ]}>

@@ -26,6 +26,15 @@ export default function Navigator() {
             require('../../../carousel/containers/Carousel').default
           }
         />
+        <Stack.Screen
+          name="Donuts"
+          options={{
+            headerShown: false,
+          }}
+          getComponent={() =>
+            require('../../../donuts/containers/Donuts').default
+          }
+        />
       </Stack.Navigator>
     </NavigationContainer>
   );
