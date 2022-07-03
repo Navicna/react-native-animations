@@ -4,7 +4,7 @@ import {Pressable} from 'react-native';
 import {StyledText, StyledView} from 'react-native-dev-ui';
 import {ScreenBox} from '../../../../components/ScreenBox';
 import {Colors} from '../../../../constants/Colors';
-import Icon from 'react-native-vector-icons/dist/MaterialCommunityIcons';
+import {IconChevronRight} from '../../../../ui/Icon';
 
 type ItemProps = {
   title: string;
@@ -23,7 +23,7 @@ const Item = ({title, onPress}: {title: string; onPress(): void}) => {
       borderColor={Colors.grayOver}
       pv={8}>
       <StyledText fontSize={20}># {title}</StyledText>
-      <Icon name="chevron-right" size={30} />
+      <IconChevronRight />
     </StyledView>
   );
 };

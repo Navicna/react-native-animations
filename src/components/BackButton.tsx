@@ -4,6 +4,7 @@ import {Pressable} from 'react-native';
 import {StyledView} from 'react-native-dev-ui';
 
 import Icon from 'react-native-vector-icons/dist/MaterialCommunityIcons';
+import {IconChevronLeft} from '../ui/Icon';
 
 export const BackButton = ({style}: {style?: any}) => {
   const {goBack} = useNavigation();
@@ -26,7 +27,7 @@ export const BackButton = ({style}: {style?: any}) => {
         },
         style,
       ]}>
-      <Icon name="chevron-left" size={30} />
+      <IconChevronLeft />
     </StyledView>
   );
 };
