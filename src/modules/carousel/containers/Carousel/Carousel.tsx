@@ -6,6 +6,7 @@ import {
   StyledText,
   StyledView,
 } from 'react-native-dev-ui';
+import {BackButton} from '../../../../components/BackButton';
 import {Colors} from '../../../../constants/Colors';
 import {animals} from '../../../../utils/Data';
 
@@ -43,6 +44,7 @@ export default function Carousel() {
             alignItems="center"
             justifyContent="center"
             width={screenProportion('FULL_WIDTH')}>
+            {index === 0 && <BackButton />}
             <Image
               source={{uri: item.image}}
               height={300}
