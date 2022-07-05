@@ -32,8 +32,8 @@ export default function InitialScreen() {
   const {navigate} = useNavigation();
   const data: ItemProps[] = [
     {
-      title: 'Onboarding Animation',
-      onPress: () => console.warn(),
+      title: 'Header Animation',
+      onPress: () => navigate('Header'),
     },
     {
       title: 'Circular Progress',
@@ -42,6 +42,11 @@ export default function InitialScreen() {
     {
       title: 'Carousel',
       onPress: () => navigate('Carousel'),
+    },
+    ,
+    {
+      title: 'Header Animation 2',
+      onPress: () => navigate('Header2'),
     },
     ,
   ];

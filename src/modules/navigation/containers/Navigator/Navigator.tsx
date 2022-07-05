@@ -35,6 +35,26 @@ export default function Navigator() {
             require('../../../donuts/containers/Donuts').default
           }
         />
+        <Stack.Screen
+          name="Header"
+          options={{
+            headerShown: false,
+            gestureEnabled: true,
+          }}
+          getComponent={() =>
+            require('../../../header/containers/Header').default
+          }
+        />
+        <Stack.Screen
+          name="Header2"
+          options={{
+            headerShown: false,
+            gestureEnabled: true,
+          }}
+          getComponent={() =>
+            require('../../../header/containers/Header2').default
+          }
+        />
       </Stack.Navigator>
     </NavigationContainer>
   );
