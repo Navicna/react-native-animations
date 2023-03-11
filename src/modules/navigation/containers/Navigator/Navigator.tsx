@@ -55,6 +55,14 @@ export default function Navigator() {
             require('../../../header/containers/Header2').default
           }
         />
+        <Stack.Screen
+          name="Accordion"
+          options={{
+            headerShown: false,
+            gestureEnabled: true,
+          }}
+          getComponent={() => require('../../../../screens/Accordion').default}
+        />
       </Stack.Navigator>
     </NavigationContainer>
   );

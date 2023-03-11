@@ -48,6 +48,10 @@ export default function InitialScreen() {
       title: 'Header Animation 2',
       onPress: () => navigate('Header2'),
     },
+    {
+      title: 'Accordion',
+      onPress: () => navigate('Accordion'),
+    },
     ,
   ];
   return (
