@@ -55,6 +55,7 @@ export default function Navigator() {
             require('../../../header/containers/Header2').default
           }
         />
+
         <Stack.Screen
           name="Accordion"
           options={{
@@ -62,6 +63,24 @@ export default function Navigator() {
             gestureEnabled: true,
           }}
           getComponent={() => require('../../../../screens/Accordion').default}
+        />
+        <Stack.Screen
+          name="AnimatedPicker"
+          options={{
+            headerShown: false,
+            gestureEnabled: true,
+          }}
+          getComponent={() =>
+            require('../../../../screens/AnimatedPicker').default
+          }
+        />
+        <Stack.Screen
+          name="Skeleton"
+          options={{
+            headerShown: false,
+            gestureEnabled: true,
+          }}
+          getComponent={() => require('../../../../screens/Skeleton').default}
         />
       </Stack.Navigator>
     </NavigationContainer>

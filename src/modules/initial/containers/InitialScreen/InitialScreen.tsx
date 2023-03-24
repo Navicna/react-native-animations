@@ -52,6 +52,14 @@ export default function InitialScreen() {
       title: 'Accordion',
       onPress: () => navigate('Accordion'),
     },
+    {
+      title: 'Animated Picker',
+      onPress: () => navigate('AnimatedPicker'),
+    },
+    {
+      title: 'Skeleton',
+      onPress: () => navigate('Skeleton'),
+    },
     ,
   ];
   return (
