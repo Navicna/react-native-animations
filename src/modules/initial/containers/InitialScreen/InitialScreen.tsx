@@ -60,6 +60,10 @@ export default function InitialScreen() {
       title: 'Skeleton',
       onPress: () => navigate('Skeleton'),
     },
+    {
+      title: 'Animated Picker 2',
+      onPress: () => navigate('AnimatedPicker2'),
+    },
     ,
   ];
   return (

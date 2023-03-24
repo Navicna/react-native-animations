@@ -82,6 +82,16 @@ export default function Navigator() {
           }}
           getComponent={() => require('../../../../screens/Skeleton').default}
         />
+        <Stack.Screen
+          name="AnimatedPicker2"
+          options={{
+            headerShown: false,
+            gestureEnabled: true,
+          }}
+          getComponent={() =>
+            require('../../../../screens/AnimatedPicker2').default
+          }
+        />
       </Stack.Navigator>
     </NavigationContainer>
   );
