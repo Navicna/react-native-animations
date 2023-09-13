@@ -1,6 +1,6 @@
 # React Native Animations
 
-Application with react-native cli to development a different animations types.
+Application with react-native cli to show a different animations types.
 
 - Source Code: https://github.com/Navicna/react-native-animations
 
