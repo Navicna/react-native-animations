@@ -1,6 +1,6 @@
 # React Native Animations
 
-In this application I used react-native framework on cli to development a different animations.
+Application with react-native cli to development a different animations types.
 
 - Source Code: https://github.com/Navicna/react-native-animations
 
